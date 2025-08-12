@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-12T16:00:41 WIB" name="Google SDET Suite" finished-at="2025-08-12T16:01:49 WIB" duration-ms="67928">
+    <groups>
+    </groups>
+    <test started-at="2025-08-12T16:00:41 WIB" name="Swaglabs Test" finished-at="2025-08-12T16:01:49 WIB" duration-ms="67928">
+      <class name="com.juaracoding.swaglabs.AuthenticationTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:00:42 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:03 WIB" duration-ms="20337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:01:03 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:15 WIB" duration-ms="12515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jonosebastian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match any user in this service.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:01:15 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:27 WIB" duration-ms="11427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sambel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match any user in this service.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:01:27 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:39 WIB" duration-ms="12214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:01:39 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:49 WIB" duration-ms="10204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.juaracoding.swaglabs.AuthenticationTest -->
+    </test> <!-- Swaglabs Test -->
+  </suite> <!-- Google SDET Suite -->
+</testng-results>

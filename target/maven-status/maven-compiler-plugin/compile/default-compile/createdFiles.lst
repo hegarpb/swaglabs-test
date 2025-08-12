@@ -1,0 +1,6 @@
+com\juaracoding\swaglabs\utils\DriverUtil.class
+com\juaracoding\swaglabs\screens\InventoryScreen.class
+com\juaracoding\swaglabs\utils\DragPositionUtil.class
+com\juaracoding\swaglabs\utils\ExcelUtils.class
+com\juaracoding\swaglabs\components\HeaderComponent.class
+com\juaracoding\swaglabs\screens\LoginScreen.class

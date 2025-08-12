@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google SDET Suite">
+
+  <test name="Swaglabs Test">
+    <classes>
+      <class name="com.juaracoding.swaglabs.AuthenticationTest"></class>
+      <!-- <class name="com.juaracoding.swaglabs.LoginTest"></class>
+      <class name="com.juaracoding.swaglabs.InvalidLoginTest"></class> -->
+      <!-- <class name="com.juaracoding.swaglabs.InventoryTest"></class> -->
+    </classes>
+  </test>
+</suite>
