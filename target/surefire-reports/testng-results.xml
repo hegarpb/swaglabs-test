@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T16:00:41 WIB" name="Google SDET Suite" finished-at="2025-08-12T16:01:49 WIB" duration-ms="67928">
+  <suite started-at="2025-08-13T15:06:58 WIB" name="Google SDET Suite" finished-at="2025-08-13T15:09:22 WIB" duration-ms="144160">
     <groups>
     </groups>
-    <test started-at="2025-08-12T16:00:41 WIB" name="Swaglabs Test" finished-at="2025-08-12T16:01:49 WIB" duration-ms="67928">
+    <test started-at="2025-08-13T15:06:58 WIB" name="Swaglabs Test" finished-at="2025-08-13T15:09:22 WIB" duration-ms="144160">
+      <class name="com.juaracoding.swaglabs.AddToCartTest">
+        <test-method signature="TC0008()[pri:0, instance:com.juaracoding.swaglabs.AddToCartTest@74fe5c40]" started-at="2025-08-13T15:09:01 WIB" name="TC0008" finished-at="2025-08-13T15:09:22 WIB" duration-ms="21003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0008 -->
+      </class> <!-- com.juaracoding.swaglabs.AddToCartTest -->
+      <class name="com.juaracoding.swaglabs.InventoryTest">
+        <test-method signature="TC0006()[pri:2, instance:com.juaracoding.swaglabs.InventoryTest@436813f3]" started-at="2025-08-13T15:08:29 WIB" name="TC0006" finished-at="2025-08-13T15:09:01 WIB" duration-ms="31469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0006 -->
+      </class> <!-- com.juaracoding.swaglabs.InventoryTest -->
       <class name="com.juaracoding.swaglabs.AuthenticationTest">
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:00:42 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:03 WIB" duration-ms="20337" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@36bc55de]" started-at="2025-08-13T15:06:59 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-13T15:07:16 WIB" duration-ms="16985" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:01:03 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:15 WIB" duration-ms="12515" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@36bc55de]" started-at="2025-08-13T15:07:16 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-13T15:07:29 WIB" duration-ms="12934" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:01:15 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:27 WIB" duration-ms="11427" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@36bc55de]" started-at="2025-08-13T15:07:29 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-13T15:07:49 WIB" duration-ms="20572" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,28 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:01:27 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:39 WIB" duration-ms="12214" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Password is required]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@3a93b025]" started-at="2025-08-12T16:01:39 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-12T16:01:49 WIB" duration-ms="10204" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@36bc55de]" started-at="2025-08-13T15:07:49 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-13T15:08:10 WIB" duration-ms="20357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,6 +97,27 @@
             <param index="2">
               <value>
                 <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.swaglabs.AuthenticationTest@36bc55de]" started-at="2025-08-13T15:08:10 WIB" name="loginTest" data-provider="loginDataProvider" finished-at="2025-08-13T15:08:29 WIB" duration-ms="19066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
               </value>
             </param>
           </params>

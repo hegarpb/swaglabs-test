@@ -1,5 +1,4 @@
-com\juaracoding\swaglabs\LoginTest.class
+com\juaracoding\swaglabs\AddToCartTest.class
 com\juaracoding\swaglabs\providers\DataTestProvider.class
 com\juaracoding\swaglabs\AuthenticationTest.class
 com\juaracoding\swaglabs\InventoryTest.class
-com\juaracoding\swaglabs\InvalidLoginTest.class

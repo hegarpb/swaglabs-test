@@ -5,9 +5,8 @@
   <test name="Swaglabs Test">
     <classes>
       <class name="com.juaracoding.swaglabs.AuthenticationTest"></class>
-      <!-- <class name="com.juaracoding.swaglabs.LoginTest"></class>
-      <class name="com.juaracoding.swaglabs.InvalidLoginTest"></class> -->
-      <!-- <class name="com.juaracoding.swaglabs.InventoryTest"></class> -->
+      <class name="com.juaracoding.swaglabs.InventoryTest"></class>
+      <class name="com.juaracoding.swaglabs.AddToCartTest"></class>
     </classes>
   </test>
 </suite>
